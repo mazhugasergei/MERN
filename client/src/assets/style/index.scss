@@ -105,31 +105,3 @@ main{
   border-radius: .5rem;
   padding: .75rem 1.25rem;
 }
-
-.error-cont{
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  background: #f0f0f2;
-  .error{
-    max-width: 37.5rem;
-    background: #fdfdff;
-    border-radius: 0.5rem;
-    box-shadow: .125rem 5.333rem 2.2857rem .125rem rgba(0,0,0,0.02);
-    padding: 2rem;
-    margin: 5rem auto;
-
-    b{
-      font-size: 1.5rem;
-    }
-    
-    p{
-      margin: .75rem 0 1.25rem;
-    }
-  
-    .btn{
-      text-align: center;
-    }
-  }
-}
