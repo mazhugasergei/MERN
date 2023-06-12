@@ -10,7 +10,7 @@ export default () => {
     e.preventDefault()
 
     await axios.post(`https://learning-mern-server.onrender.com/api/notes`, { body: textareaBody })
-      .then(res => window.location = `/notes/${res.data}`)
+      .then(res => window.location = `#/notes/${res.data}`)
       .catch(error => console.log(error))
   }
 
@@ -19,8 +19,8 @@ export default () => {
       <nav>
         <div className="title">Create</div>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/notes/create">Create</a></li>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/notes/create">Create</a></li>
         </ul>
       </nav>
       <form onSubmit={createNote}>

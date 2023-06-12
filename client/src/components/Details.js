@@ -17,7 +17,7 @@ export default () => {
 
   const deleteNote = async () => {
     await axios.delete(`https://learning-mern-server.onrender.com/api/notes/${id}`)
-      .then(() => window.location = "/")
+      .then(() => window.location = "#/")
   }
 
   return (
@@ -25,8 +25,8 @@ export default () => {
       <nav>
         <div className="title">Details</div>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/notes/create">Create</a></li>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/notes/create">Create</a></li>
           <li><a className="delete" onClick={deleteNote}>Delete</a></li>
         </ul>
       </nav>
