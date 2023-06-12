@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Learning_MERN/static/css/main.0a3e6f83.css",
+    "main.js": "/Learning_MERN/static/js/main.909f529e.js",
+    "index.html": "/Learning_MERN/index.html",
+    "main.0a3e6f83.css.map": "/Learning_MERN/static/css/main.0a3e6f83.css.map",
+    "main.909f529e.js.map": "/Learning_MERN/static/js/main.909f529e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a3e6f83.css",
+    "static/js/main.909f529e.js"
+  ]
+}
